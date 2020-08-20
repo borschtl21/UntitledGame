@@ -1,0 +1,48 @@
+2d platformer
+waffen:
+
+waffen sammelbar an bestimmten stellen im level, potentiell bei bestimmt hohem skilllevel auch ab anfang an verfügbar
+
+        temporäres bh
+        urgot ult
+        verwandlung
+        platztauschen
+        eingraben
+        freeze
+        strom/feuer, wenn wasser/eis
+
+
+character:
+         verschiedene arten von charcaters am anfang wählbar, welche individuelle stärken und schwächen mit sich bringen
+         jedoch prinzipiell mit allen klassen alles schaffbar auf unterschiedlichen spielwegen -> prinzipiell aber ähnliches spiel mit allen characters
+
+
+         verschiedene arten von schaden an verschiedenen körperteilen
+         permanenter und temporärer skilltree
+         verschiedene level an waffenhändling -> verbesserte waffeneigenschaften (längere wirkung, mehr range, usw)
+
+
+
+skilltree:
+
+am anfang jedes levels skillpunkte in temporäreren tree -> nicht jedes level mit allen möglichkeiten schaffbar
+->
+
+permanente boni separat -> jedes level mit allen möglichkeiten schaffbar
+->
+
+
+
+        verbesserung der einzelnen Attribute des characters
+        verbesserung der waffen
+        modifizieren einzelner waffen
+
+level:
+
+finden von waffen
+alternative wege, wenn wahl temporärer stats oder verletzungen/characterbeeinflussungen
+
+
+
+
+

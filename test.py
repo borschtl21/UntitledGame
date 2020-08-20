@@ -1,23 +1,31 @@
 import pygame, sys
-from pygame.locals import *
+import level, player
+from main import Button
+import vectormath
 
-def main():
-    pygame.init()
+pygame.init()
 
-    DISPLAY=pygame.display.set_mode((500,400),0,32)
+g = vectormath.vector.Vector2(0, 2)
 
-    WHITE=(255,255,255)
-    BLUE=(0,0,255)
+size_screen = 1280, 720
+size_buttons = 300, 50
+size = 1280, 20
+pos = 0, 690
+black = 0, 0, 0
+white = 255, 255, 255
+blue = 0, 0, 255
 
-    DISPLAY.fill(WHITE)
+screen = pygame.display.set_mode(size_screen, 0, 32)
+rect = pygame.Rect(pos, size)
+player = player.Player(20, 0, g)
+level = level.Level([player, rect])
 
-    pygame.draw.rect(DISPLAY,BLUE,(200,150,100,50))
+while 1:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: sys.exit()
 
-    while True:
-        for event in pygame.event.get():
-            if event.type==QUIT:
-                pygame.quit()
-                sys.exit()
-        pygame.display.update()
-
-main()
+    screen.fill(black)
+    pygame.draw.rect(screen, blue, rect)
+    player.draw(screen, white)
+    player.move()
+    pygame.display.update()
