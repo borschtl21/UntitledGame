@@ -13,8 +13,6 @@ class Player(physik.PhysicsObj):
 #        self.rect.x += self.vel.x
 #        self.rect.y += self.vel.y
 
-    def jump(self):
-        self.y_global += 100
 
 
 
